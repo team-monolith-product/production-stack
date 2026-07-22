@@ -42,7 +42,7 @@ lmcache = [
 ]
 
 [build-system]
-requires = ["setuptools>=68", "setuptools_scm[toml]>=8.0"]
+requires = ["setuptools>=83.0.0", "setuptools_scm[toml]>=8.0"]
 
 [tool.setuptools_scm]
 write_to = "src/vllm_router/_version.py"
